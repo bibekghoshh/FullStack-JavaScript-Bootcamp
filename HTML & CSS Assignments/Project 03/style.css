@@ -1,0 +1,147 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+body{
+    font-family:Orbitron,Poppins,sans-serif;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    align-items: center;
+    margin: 0px 99px;
+    justify-content: space-between;
+}
+.navbar-container>div>img{
+    width: 120px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #353535;
+    align-items: center;
+}
+li:nth-child(1){
+    color:#000;
+    font-size: 22px;
+    font-weight: 700;
+    /* text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 3px; */
+    /* border-bottom: 3px solid black; */
+}
+.button-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-button{
+    background: none;
+    padding: 1px 40px;
+    border-radius: 12px;
+    margin-left: 12px;
+    border: 3px solid rgb(40, 40, 40);
+    font-size: 20px;
+    color: #616161;
+    font-family: Poppins;
+}
+.search-icon>svg{
+    width: 22px;
+}
+.hero-container{
+    display: flex;
+    flex-direction: row;
+}
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 100px;
+}
+.square>img{
+    position: relative;
+    left: 250px;
+    top: 245px;
+    width: 300px;
+}
+.hero-container>div>img{
+    width: 390px;
+    position: absolute;
+    left: 100px;
+    top: 160px;
+    /* display: none; */
+}
+.star:nth-child(2)>img{
+    position: absolute;
+    right: 120px;
+    top: 170px;
+    width: 50px;
+}
+.star:nth-child(3)>img{
+    position: absolute;
+    bottom: 75px;
+    left: 620px;
+    width: 40px;
+}
+.globe>img{
+    position: relative;
+    left: 500px;
+    width: 55px;
+    top: -10px;
+}
+.hero-heading{
+    font-size: 55px;
+}
+.hero-description{
+    margin: 45px 240px 0px 290px;
+    font-size: 13px;
+    font-family: Poppins;
+    text-align: center;
+    color: rgb(138, 138, 138);
+}
+.hero-container-right>div>button{
+    margin: 85px 5px 80px 5px;
+    font-family: Orbitron;
+}
+.button-email{
+    background: none;
+    font-size: 18px;
+    padding: 1px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: rgb(86, 86, 86);
+}
+.button-join{
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 1px 5px;
+    font-size: 18px;
+}
+.contact-heading{
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 15px;
+        color: rgb(126, 126, 126);
+        margin-left: 40px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.icons>span>img{
+    width: 30px;
+}

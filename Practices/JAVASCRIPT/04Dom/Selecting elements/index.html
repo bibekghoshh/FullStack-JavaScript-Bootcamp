@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecting elements on web pages</title>
+</head>
+<body>
+    <div>
+        <h1>Hey this is bibek</h1>
+        <h1 class="bibek">is it okay</h1>
+        <h1 id="ghosh">i am enjoying this dev joureny</h1>
+    </div>
+
+    <script>
+        var title=document.getElementsByTagName("h1")[0].innerText
+        console.log(title);
+        var bibek=document.getElementsByClassName("bibek")[0].innerText
+        console.log(bibek);
+        var ghosh=document.getElementById("ghosh").innerText
+        console.log(ghosh);
+
+        var okay=document.querySelector(".bibek").innerText
+        console.log(okay);
+    </script>
+</body>
+</html>

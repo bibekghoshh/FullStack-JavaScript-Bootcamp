@@ -1,0 +1,41 @@
+body{
+    background: rgb(135,136,4);
+background: -moz-linear-gradient(90deg, rgba(135,136,4,1) 10%, rgba(128,26,47,1) 87%);
+background: -webkit-linear-gradient(90deg, rgba(135,136,4,1) 10%, rgba(128,26,47,1) 87%);
+background: linear-gradient(90deg, rgba(135,136,4,1) 10%, rgba(128,26,47,1) 87%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#878804",endColorstr="#801a2f",GradientType=1);
+}
+.container{
+    height: vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 2px solid #fff;
+}
+.left,.right{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    animation: bibek 1.5s linear infinite ;
+
+}
+@keyframes bibek{
+    0%,
+    100%{
+        transform: scale(0);
+    }
+    75%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1);
+    }
+}

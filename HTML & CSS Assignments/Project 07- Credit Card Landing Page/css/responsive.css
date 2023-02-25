@@ -1,0 +1,90 @@
+@media  screen and (max-width:1250px) {
+    .nav-center{
+        display: none;
+    }
+    .intro1{
+        font-size: 400%;
+        transition:.7s;
+    }
+    .intro2{
+        font-size: 120%;
+        transition:.7s;
+    }
+    .frontcard{
+        width: 600px;
+        height: 600px;
+    }
+    .backcard{
+        display: none;
+    }
+    .best-payment{
+        flex-direction: column;
+        transition:.7s;
+    }
+    .dollar-cloud-lock{
+        flex-direction: column;
+        transition:.7s;
+    }
+    .cloud{
+        margin-bottom: 0px;
+        transition:.7s;
+    }
+    .logos{
+        gap:50px;
+        transition:.7s;
+    }
+    .lg{
+        width: 10%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .frontcard{
+        width: 450px;
+        height: 590px;
+    }
+    .best-payment>p:nth-child(1){
+        font-size: 60px;
+    }
+    .middle-section>div>p:nth-child(1){
+        font-size: 60px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .middle-section>div>p:nth-child(2){
+        width: 90%;
+        font-size: 18px;
+    }
+    .sec-last-top>p:nth-child(1){
+        font-size: 50px;
+        margin: 10% 5% 2% 5%;
+    }
+    .sec-last-top>p:nth-child(2){
+        font-size: 18px;
+        margin: 3% 10% 5% 10%;
+    }
+    .last-sec-title>p{
+        width: 90%;
+        font-size: 400%;
+    }
+    .footer{
+        margin: 80px 50px 20px 50px;
+    }
+    .list{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-list{
+        justify-content: end;
+    }
+}
+@media screen and (max-width:600px){
+    .frontcard{
+        width: 400px;
+        height: 400px;
+        top: 250px;
+    }
+    .intro2{
+        margin: 30px 60% 50px 0px;
+    }
+}

@@ -1,0 +1,142 @@
+body{
+    background-image: url(../image/webbg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    margin: 0 5%;
+}
+.logo{
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+.google-play-img{
+        width: 200px;
+        height: 120px;
+}
+.guywithpc{
+    width: 100%;
+    height: 100%;
+}
+nav .menu-bar-icon{
+    display: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.nav-button{
+    font-family: font-awesome;
+    font-size: 26px;
+    background-color: #5A20CB;
+    border: none;
+    color: #000;
+    box-shadow: 0 1px 1px #000;
+    border-radius: 10px;
+    padding:5px 20px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 20vh;
+}
+
+nav .nav-items{
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.brand-image{
+    display: flex;
+    flex: 1;
+    margin: auto;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    flex: 1;
+    /* border: 2px solid #000; */
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    min-height: 100%;
+    /* border: 2px solid #000; */
+}
+.container .col-1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: flex-start;
+    color: #fff;
+    /* border: 2px solid rgb(255, 255, 255); */
+    width: 50%;
+}
+.container .col-2{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: flex;
+}
+.col p{
+    font-size: 20px;
+}
+.col h1{
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+
+@media  screen and (max-width:1200px) {
+    .guywithpc{
+        height: 80%;
+        width: 80%;
+    }
+    nav .nav-items{
+        display: none;
+    }
+    nav .menu-bar-icon{
+        display: block;
+        color: #fff;
+        font-size: 30px;
+        margin: auto;
+    }
+    .google-play-img{
+        height: 120px;
+        width: 100px;
+    }
+    
+}
+
+@media screen and (max-width:800px){
+    .guywithpc{
+        height: 60%;
+        width: 80%;
+    }
+    .logo{
+        height: 55px;
+        width: 55px;
+    }
+    nav .menu-bar-icon{
+        font-size: 25px;
+    }
+    .container .col-2{
+        display: flex;
+        align-items:center;
+        justify-content: flex-end;
+    }
+}
+@media  screen and (max-width:500px) {
+    .guywithpc{
+        display: none;
+    }
+    }

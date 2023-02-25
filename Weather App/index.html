@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather application</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="initClock()">
+
+    <form class="input-form" onsubmit="getData(event)">
+        <input type="text" id="inputBox" placeholder="Enter The City Name">
+        <button class="submit-btn">Search</button>
+    </form>
+
+    <main class="container">
+        <div class="top-sec">
+            <div class="top-left">
+                <div>
+                    <p>NOW</p>
+                </div>
+                <div class="top-lelt-down">
+                    <div>
+                        <p id="current-temp">00°</p>
+                    </div>
+                    <div class="wether-detail">
+                        <img id="current-condition-img" src="" >
+                        <p id="condition-text">----</p>
+                    </div>
+                </div>
+            </div>
+            <div class="top-right">
+                <div class="forcast-card">
+                    <p id="timeZone-one"></p>
+                    <img src="" id="tempimg-one" >
+                    <p id="tempzone-one">00°</p>
+                </div>
+                <div class="forcast-card">
+                    <p id="timeZone-two"></p>
+                    <img src="" id="tempimg-two">
+                    <p id="tempzone-two">00°</p>
+                </div>
+                <div class="forcast-card">
+                    <p id="timeZone-three"></p>
+                    <img src="" id="tempimg-three" >
+                    <p id="tempzone-three">00°</p>
+                </div>
+                <div class="forcast-card">
+                    <p id="timeZone-four"></p>
+                    <img src="" id="tempimg-four">
+                    <p id="tempzone-four">00°</p>
+                </div>
+                <div class="forcast-card">
+                    <p id="timeZone-five"></p>
+                    <img src="" id="tempimg-five">
+                    <p id="tempzone-five">00°</p>
+                </div>
+                <div class="forcast-card">
+                    <p id="timeZone-six"></p>
+                    <img src="" id="tempimg-six">
+                    <p id="tempzone-six">00°</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p id="full-location">Location</p>
+        </div>
+        <div class="middle-section">    
+            <div class="top-card">
+                <div class="card">
+                    <p id="dayOne">tuesday</p>
+                    <img src="" id="dayonewetherimg">
+                    <div class="highest-lowest">
+                        <p id="dayoneHigh">00°</p>
+                        <p id="dayoneLow">00°</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <p id="dayTwo">tuesday</p>
+                    <img src="" id="daytwowetherimg">
+                    <div class="highest-lowest">
+                        <p id="daytwoHigh">00°</p>
+                        <p id="daytwoLow">00°</p>
+                    </div>
+                </div>
+             </div>
+             <div class="bottam-card">
+                <div class="card">
+                    <p id="dayThree">tuesday</p>
+                    <img src="" id="daythreewetherimg">
+                    <div class="highest-lowest">
+                        <p id="daythreeHigh">00°</p>
+                        <p id="daythreeLow">00°</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <p id="dayFour">tuesday</p>
+                    <img src="" id="dayfourwetherimg">
+                    <div class="highest-lowest">
+                        <p id="dayfourHigh">00°</p>
+                        <p id="dayfourLow">00°</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="last-section">
+            <div class="created-by">
+                <a href="https://bibekghosh.netlify.app/">
+                    <p title="Click here">Developer Details</p></a>
+            </div>
+            <div class="time-sec">
+                <p id="current-time">8:38 AM</p>
+                <p id="current-date">12/02/2023</p>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
