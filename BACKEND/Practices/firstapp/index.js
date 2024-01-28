@@ -1,14 +1,15 @@
 const express=require('express'); //bringing the express
-// const res = require('express/lib/response');
 
 const app=express(); //assgin the express into app
 
 const port=3000; //assigning the port number
 
+// Home route
 app.get("/",(req,res)=>{
     res.status(201).send("Hey We are learning Exprexx FRamework");
 })
 
+// bibek route
 app.get("/bibek",(req,res)=>{
     const bibek={
         firstname: "Bibek",
